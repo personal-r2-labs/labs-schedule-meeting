@@ -1,0 +1,37 @@
+{
+  "name": "labs-schedule-meeting",
+  "version": "1.0.0",
+  "description": "An API to management meeting schedules",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "jest --watchAll --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romulo2franca/labs-schedule-meeting.git"
+  },
+  "keywords": [
+    "schedule",
+    "meeting",
+    "room",
+    "api",
+    "management"
+  ],
+  "author": "Romulo Franca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romulo2franca/labs-schedule-meeting/issues"
+  },
+  "homepage": "https://github.com/romulo2franca/labs-schedule-meeting#readme",
+  "dependencies": {
+    "config": "^3.0.1",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-async-errors": "^3.1.1",
+    "joi": "^14.3.1",
+    "joi-objectid": "^2.0.0",
+    "mongoose": "^5.4.7",
+    "winston": "^3.2.0"
+  }
+}
